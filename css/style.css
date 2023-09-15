@@ -213,7 +213,7 @@ section {
   color: #ff5421;
 } */
 
-.counter {
+/* .counter {
   background: url(../images/Sky.jpg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -240,7 +240,7 @@ section {
   font-size: 2rem;
   text-transform: capitalize;
   color: #fff;
-}
+} */
 nav
 .courses .box-container {
   display: -ms-grid;
@@ -306,7 +306,7 @@ nav
   padding: .5rem 0;
 }
 
-.pricing .box-container {
+/* .pricing .box-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(29rem, 1fr))[auto-fit];
@@ -366,7 +366,7 @@ nav
 
 .pricing .box-container .box .list p i.fa-times {
   color: #fff;
-}
+} */
 
 .join span {
   font-size: 2.5rem;
