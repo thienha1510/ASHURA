@@ -241,7 +241,7 @@ section {
   text-transform: capitalize;
   color: #fff;
 }
-
+nav
 .courses .box-container {
   display: -ms-grid;
   display: grid;
@@ -628,7 +628,7 @@ section {
     top: 99%;
     left: 0;
     right: 0;
-    background: #fff;
+    background: #fdfdfd00;
     padding: 1rem 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -642,7 +642,7 @@ section {
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
   .header .nav a {
-    color: #000;
+    color: #00000000;
     margin: 1rem 2rem;
   }
 }
