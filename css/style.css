@@ -241,6 +241,76 @@ section {
   text-transform: capitalize;
   color: #fff;
 } */
+
+.location .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+
+.location .box-container .box {
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+
+.location .box-container .box:hover .image img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.location .box-container .box .image {
+  height: 25rem;
+  overflow: hidden;
+}
+
+.location .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.location .box-container .box .content {
+  padding: 2rem;
+}
+
+.location .box-container .box .content .link {
+  font-size: 2.7rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.WorkShop .box-container .box .content .link:hover {
+  color: #ff5421;
+}
+
+.WorkShop .box-container .box .content .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+
+.WorkShop .box-container .box .content .icons span {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.WorkShop .box-container .box .content .icons span i {
+  color: #ff5421;
+  padding-right: .5rem;
+}
+
 nav
 .courses .box-container {
   display: -ms-grid;
@@ -306,7 +376,7 @@ nav
   padding: .5rem 0;
 }
 
-/* .pricing .box-container {
+.pricing .box-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(29rem, 1fr))[auto-fit];
@@ -366,7 +436,7 @@ nav
 
 .pricing .box-container .box .list p i.fa-times {
   color: #fff;
-} */
+}
 
 .join span {
   font-size: 2.5rem;
