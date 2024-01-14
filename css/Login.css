@@ -11,18 +11,11 @@ body {
     min-height: 100vh;
     background:url(../images/home-bg.jpg) no-repeat
 }
-.header.active {
-    background: #fff;
-    padding: 2rem 0;
-  }
-  
-  .header.active .logo {
+
+  .header .logo {
     color: #000;
   }
   
-  .header.active .nav a {
-    color: #000;
-  }
 .nav__logo-img{
     width: 5rem;
   }
