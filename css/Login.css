@@ -34,7 +34,7 @@ body {
 }
 @keyframes animateBlink {
     0% {
-        background: linear-gradient(to right, #dd1818,#333333 );
+        background: linear-gradient(to right, #dd1818,#2c4766 );
     }
     25% {
         background: #2c4766;
@@ -95,6 +95,10 @@ h2 {
     margin: -15px 0 10px;
     text-align: center;
 }
+.nav__logo-img{
+    width: 5rem;
+   
+  }
 .forgot-pass a {
     font-size: .85em;
     color: #fff;
