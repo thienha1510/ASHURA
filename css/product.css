@@ -166,6 +166,9 @@
     font-weight: 400;
     text-decoration: line-through;
 }
+.nav__logo-img{
+  width: 5rem;
+}
 @media screen and (max-width: 990px){
     .product-grid{ margin-bottom: 30px; }
 }
