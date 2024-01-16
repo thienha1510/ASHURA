@@ -31,7 +31,7 @@
   
           <a href="./index.html" class="logo">
              <img src="/images/favicon.png" alt="" class="nav__logo-img">
-             <span>𝐀𝐒𝐇𝐔𝐑𝐀 </span> <!-- Ultimate Calisthenics Team -->
+           <!--  <span>𝐀𝐒𝐇𝐔𝐑𝐀 </span>  Ultimate Calisthenics Team -->
           </a>
     
        </div>
@@ -44,67 +44,88 @@
 
   <div class="row">
     <div class="col-md-3 col-sm-6">
-        <div class="product-grid">
-            <div class="product-image">
-                <a href="#" class="image">
-                    <img src="images/Equipment.jpg">
-                </a>
-                <!--<span class="product-discount-label">-23%</span> -->
-                <a href="" class="add-to-cart">MUA</a>
-            </div>
-            <div class="product-content">
-                <h3 class="title">Calisthenics Powder</h3>
-                <!--<div class="price">$53.55 <span>$68.88</span></div> -->
-                <div class="price">65.000 VND</div>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-3 col-sm-6">
-        <div class="product-grid">
-            <div class="product-image">
-                <a href="#" class="image">
-                    <img src="images/Equipment01.jpg">
-                </a>
-                <a href="" class="add-to-cart">MUA</a>
-            </div>
-            <div class="product-content">
-              <h3 class="title">Vòng Tay</h3>
-                <div class="price">30.000 VND</div>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-3 col-sm-6">
       <div class="product-grid">
           <div class="product-image">
               <a href="#" class="image">
-                  <img src="images/Equipment02.jpg">
+                  <img src="images/Equipment.jpg">
               </a>
-              <a href="" class="add-to-cart">MUA</a>
+              <a href="#" class="add-to-cart" onclick="openPopup()">MUA</a>
           </div>
           <div class="product-content">
-            <h3 class="title">Paralletes Gỗ</h3>
-              <div class="price">620.000 VND</div>
+            <h3 class="title">Phấn Calisthenics</h3>
+              <div class="price">65.000VND</div>
           </div>
       </div>
   </div>
-    <div class="col-md-3 col-sm-6">
-      <div class="product-grid">
-          <div class="product-image">
-              <a href="#" class="image">
-                  <img src="images/Equipment03.jpg">
-              </a>
-              <a href="" class="add-to-cart">MUA</a>
-          </div>
-          <div class="product-content">
-            <h3 class="title">Áo ASHURA</h3>
-              <div class="price">180.000VND</div>
-          </div>
-      </div>
-  </div>
-  
+  <div class="col-md-3 col-sm-6">
+    <div class="product-grid">
+        <div class="product-image">
+            <a href="#" class="image">
+                <img src="images/Equipment01.jpg">
+            </a>
+            <a href="#" class="add-to-cart" onclick="openPopup()">MUA</a>
+        </div>
+        <div class="product-content">
+          <h3 class="title">Vòng tay</h3>
+            <div class="price">30.000VND</div>
+        </div>
+    </div>
+</div>
+<div class="col-md-3 col-sm-6">
+    <div class="product-grid">
+        <div class="product-image">
+            <a href="#" class="image">
+                <img src="images/Equipment02.jpg">
+            </a>
+            <a href="#" class="add-to-cart" onclick="openPopup()">MUA</a>
+        </div>
+        <div class="product-content">
+          <h3 class="title">Paralletes Gỗ</h3>
+            <div class="price">620.000VND</div>
+        </div>
+    </div>
+</div>
+<div class="col-md-3 col-sm-6">
+    <div class="product-grid">
+        <div class="product-image">
+            <a href="#" class="image">
+                <img src="images/Equipment03.jpg">
+            </a>
+            <a href="#" class="add-to-cart" onclick="openPopup()">MUA</a>
+        </div>
+        <div class="product-content">
+          <h3 class="title">Áo ASHURA</h3>
+            <div class="price">180.000VND</div>
+        </div>
+    </div>
 </div>
   
+  <div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>NHẬP THÔNG TIN</h2>
+        <form>
+            <label for="fullname">Họ và tên:</label>
+            <input type="text" id="fullname" name="fullname" required>
+            
+            <label for="phone">Số điện thoại:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="address">Địa chỉ:</label>
+            <input type="text" id="address" name="address" required>
+            <br>
+            <br>
+            <input type="button" value="Xác nhận" onclick="submitForm()">
+        </form>
+    </div>
+</div>
+
+</div>
+
+
+
   
+  <script src="./js/product.js"></script>
     
 </body>
 </html>
