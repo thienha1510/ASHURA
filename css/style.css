@@ -698,7 +698,7 @@ nav
     top: 99%;
     left: 0;
     right: 0;
-    background: #000000;
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);;
     padding: 1rem 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
