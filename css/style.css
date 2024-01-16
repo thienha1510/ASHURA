@@ -698,7 +698,7 @@ nav
     top: 99%;
     left: 0;
     right: 0;
-    background: #fdfdfd00;
+    background: #000000;
     padding: 1rem 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -712,7 +712,7 @@ nav
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
   .header .nav a {
-    color: #00000000;
+    color: #ffffff;
     margin: 1rem 2rem;
   }
 }
