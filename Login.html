@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Slide Navbar</title>
+	<title>ASHURA LOGIN</title>
 	<link rel="stylesheet" type="text/css" href="./css/Login.css">
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>	
 </head>
 <body>
 	<div class="main">  	
@@ -14,7 +16,7 @@
 					<input type="text" name="txt" placeholder="Tên đăng nhập" required="">
 					<input type="email" name="email" placeholder="Email" required="">
 					<input type="password" name="pswd" placeholder="Mật khẩu" required="">
-          <input type="password" name="pswd" placeholder="Mật khẩu" required="">
+          <input type="password" name="pswd" placeholder="Nhập lại mật khẩu" required="">
 					<button>Đăng ký</button>
 					<button>
 						<a href="./index.html" class="logo" style="color: #fff;">Quay về trang chủ</a>
@@ -23,17 +25,20 @@
 				</form>
 			</div>
 
+
 			<div class="login">
-				<form>
+				<form id="loginForm">
 					<label for="chk" aria-hidden="true">Đăng nhập</label>
-					<input type="email" name="email" placeholder="Email" required="">
-					<input type="password" name="pswd" placeholder="Mật khẩu" required="">
-					<button>Đăng nhập</button>
+					<input type="email" name="email" id="loginEmail" placeholder="Nhập email" required="">
+					<input type="password" name="pswd" id="loginPassword" placeholder="Nhập mật khẩu" required="">
+					<button type="submit">Đăng nhập</button>
 					<button>
 						<a href="./index.html" class="logo" style="color: #fff;">Quay về trang chủ</a>
-					</button>
+					</button>	
 				</form>
 			</div>
 	</div>
+	<div id="notificationBar" class="notification-bar"></div>
+	<script src="./js/login.js"></script>
 </body>
 </html>

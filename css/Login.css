@@ -92,3 +92,30 @@ button:hover{
 .nav__logo-img{
   width: 5rem;
 }
+
+/* Notification bar styles */
+.notification-bar {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+    z-index: 999;
+    transition: transform 0.3s ease-in-out;
+}
+
+.notification-bar:hover {
+    transform: scale(1.02);
+}
+
+.notification-success {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.notification-error {
+    background-color: #f44336;
+    color: #fff;
+}
