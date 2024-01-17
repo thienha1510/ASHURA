@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (email === adminEmail && password === adminPassword) {
             showNotification("Chúc mừng bạn đã đăng nhập thành công", true);
             setTimeout(function () {
-                window.location.href = "./Admin.html";
+                window.location.href = "./Admin2.html";
             }, 2000); // Delay for 2 seconds before redirecting to admin page
         } else {
             showNotification("VUI LÒNG KIỂM TRA LẠI", false);
